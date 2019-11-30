@@ -1,0 +1,230 @@
+
+section{
+    margin-top: 2%;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+
+.page-wrapper a{
+    color: orange;
+}
+
+.container{
+    padding-left: 8%;
+}
+
+.intro{
+    max-width: 65%;
+}
+
+.text{
+    width: 60%;
+    padding: 3% 1%;
+}
+
+.after{
+    width: 60%;
+    padding-left: 1%;
+}
+
+img{
+    max-width: 50%;
+    position: relative;
+    padding-left: 2%;
+}
+
+p{
+    padding-top: 10px;
+}
+
+.eighty {
+    width: 80%;
+}
+.about{
+    width: 60%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.think{
+    margin: 2% 10%;
+}
+
+.under{
+    background:linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.1)), url(Pics/fruits4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 80vh;
+    color: whitesmoke;
+}
+
+.btnl{
+    font-size: 110%;
+    max-width: 85%;
+    max-height: 100%;
+}
+
+.last{
+    background-color: rgba(0,0,0,.5);
+    padding: 5%;
+    margin-left: 20%;
+    font-family: Libre Baskerville !important;
+}
+
+.connect{
+    height: 60vh;
+    text-align: center;
+    padding-top: 3%;
+}
+
+footer{
+    height: 100vh;
+    background: rgb(2, 46, 2);
+    color: white;
+    font-size: 130%;
+}
+
+.footer-nav ul li{
+    list-style: none;
+}
+
+.footer-nav ul li a, footer h2, a{
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+footer span{
+    color: rgb(250, 176, 37);
+}
+
+.footer-nav ul li a:hover{
+    color: rgb(250, 176, 37)}
+
+.designer{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background: rgb(25, 37, 44);
+    color: rgb(236, 218, 218);
+    padding-top: 15px;
+    left: 0px;
+    bottom: 0px;
+
+}
+
+
+
+@media(max-width: 930px){
+    .landing{
+        font-size: 2rem;
+        padding-left: 13%;
+    }
+
+    
+}
+
+@media (max-width: 812px){
+    .landing{
+        padding-left: 8%;
+        font-size: 1.7rem;
+    }
+
+    footer .container{
+        display: block;
+    }
+    .footer-nav {
+        margin: 40px;
+
+    }
+}
+
+
+@media (max-width: 490px){
+    .under{
+        height: 100%;
+    }
+}
+
+@media (max-width: 360px){
+    .brand{
+        font-size: 1.15rem;
+    }
+
+    .footer-nav{
+        font-size: 95%;
+        margin: 40% 5%;
+    }
+
+    .landing{
+        font-size: 120%;
+    }
+
+    .connect p{
+        padding-left: 8%;
+    }
+
+    .connect h2{
+        font-size: 1.1rem;
+    }
+
+    #rights{
+        font-size: 80%;
+    }
+}
+
+
+
+@media (max-width: 285px){
+    #Home{
+        height: 70vh;
+    }
+
+    .text {
+        width: 80%;
+    }
+    .after{
+        width: 80%;
+    }
+    .image{
+        width: 155%;
+    }
+}
+
+
+@media (max-width: 240px){
+    footer .container .email{
+        font-size: 90%;
+    }
+    .landing{
+        padding-left: 3px;
+    }
+}
+
+@media (max-width: 195px){
+    .brand{
+        font-size: 1.1rem;
+    }
+
+    .page-wrapper{
+        font-size: 60%;
+    }
+    .intro .text .after .eighty{
+        width: 90%;
+    }
+    nav ul li{
+        font-size: 90%;
+        padding: 2%;
+        height: 40vh;
+    }
+
+
+}
+
+@media (max-width: 215px){
+    .brand{
+        padding-left: 20%;
+    }
+
+    nav ul.active{
+        padding-top: 9%;
+    }
+}

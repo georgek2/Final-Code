@@ -138,16 +138,13 @@ footer span{
 }
 
 
-@media (max-width: 490px){
+@media (max-width: 550px){
     .under{
         height: 100%;
     }
 }
 
 @media (max-width: 360px){
-    .brand{
-        font-size: 1.15rem;
-    }
 
     .footer-nav{
         font-size: 95%;
@@ -200,9 +197,6 @@ footer span{
 }
 
 @media (max-width: 195px){
-    .brand{
-        font-size: 1.1rem;
-    }
 
     .page-wrapper{
         font-size: 60%;
@@ -210,21 +204,6 @@ footer span{
     .intro .text .after .eighty{
         width: 90%;
     }
-    nav ul li{
-        font-size: 90%;
-        padding: 2%;
-        height: 40vh;
-    }
-
 
 }
 
-@media (max-width: 215px){
-    .brand{
-        padding-left: 20%;
-    }
-
-    nav ul.active{
-        padding-top: 9%;
-    }
-}

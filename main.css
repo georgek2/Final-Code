@@ -45,7 +45,7 @@ nav{
 .brand{
     transform: translateX(-100rem);
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     animation: slideIn .5s forwards;
 }
 
@@ -150,7 +150,7 @@ footer .container{
 @media (max-width: 728px){
     .nav-links{
         position: absolute;
-        background-color: rgba(0,0,0,.1);
+        background-color: rgba(0,0,0,.8);
         right: 0px;
         top: 8vh;
     }
@@ -163,7 +163,12 @@ footer .container{
         display: none;
     }
     nav ul.active{
+        align-items: center;
+        height: 40vh;
+        line-height: 40px;
+        justify-content: center;
         display: flex;
+        flex-direction: column;
     }
 
     footer .container{
@@ -178,7 +183,7 @@ footer .container{
 
 @media(max-width: 478px){
     .brand{
-        font-size: 1.3rem;
+        font-size: 12px;
     }
 
     .landing{
@@ -205,10 +210,6 @@ footer .container{
 
     .footer-nav{
         margin: 20px;
-    }
-    nav ul{
-        font-size: 1.1rem;
-        width: 60%;
     }
 }
 

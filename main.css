@@ -29,9 +29,6 @@ a{
     background-size: cover;
 }
 
-.title{
-    font-size: 200%;
-}
 nav{
     min-height: 8vh;
     display: flex;
@@ -123,7 +120,6 @@ nav ul li a:hover::after{
 }
 
 .landing{
-    font-size: 2.3rem;
     width: 70%;
     padding-top: 10%;
     padding-left: 20%;
@@ -183,13 +179,8 @@ footer .container{
 
 @media(max-width: 478px){
     .brand{
-        font-size: 12px;
+        font-size: 13px;
     }
-
-    .landing{
-        font-size: 1.1rem;
-    }
-
     .footer-nav {
         margin: 40px;
     }
@@ -198,11 +189,16 @@ footer .container{
     }
 }
 
+@media (max-width: 440px){
+    .landing{
+        font-size: 140%;
+        padding-left: 2px !important;
+    }
+}
+
 @media (max-width: 380px){
     .landing{
-        padding-left: 5%;
         padding-top: 20%;
-        font-size: 1.02rem;
     }
 }
 
@@ -211,15 +207,15 @@ footer .container{
     .footer-nav{
         margin: 20px;
     }
+    .landing{
+        padding-left: 1px;
+    }
 }
 
 @media (max-width: 250px){
     
     #Home{
         height: 10vh;
-    }
-    .landing{
-        font-size: 0.5rem;
     }
 
 }

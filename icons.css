@@ -1,0 +1,31 @@
+@import url('http://weloveiconfonts.com/api/?family=entypo');
+
+.box {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  line-height: 50px;
+  font-family: Entypo;
+  font-size: 28px;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .30s;
+}
+.box:hover {
+	transition: .30s;
+	color: white;	
+}
+#facebook:hover {
+	background-color: #3a5795;
+}
+#twitter:hover {
+	background-color: #00acee;
+}
+#google:hover {
+	background-color: #dd4b39;
+}
+
+

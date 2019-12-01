@@ -79,9 +79,23 @@ p{
 }
 
 .connect{
-    height: 60vh;
-    text-align: center;
-    padding-top: 3%;
+    height: 40vh;
+    width: 50%;
+    align-content: center;
+    margin: 4% auto;
+    padding: 5%;
+}
+
+.connect h2{
+    text-decoration-line: underline;
+}
+
+.connect .facebook a {
+    color: #436aaf;
+}
+
+.connect .twitter a{    
+    color: #00aced;
 }
 
 footer{

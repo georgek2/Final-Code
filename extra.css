@@ -80,10 +80,10 @@ p{
 
 .connect{
     height: 40vh;
-    width: 50%;
+    width: 100%;
     align-content: center;
     margin: 4% auto;
-    padding: 5%;
+    padding-left: 15%;
 }
 
 .connect h2{
@@ -170,10 +170,6 @@ footer span{
     .footer-nav{
         font-size: 95%;
         margin: 40% 5%;
-    }
-
-    .connect p{
-        padding-left: 8%;
     }
 
     .connect h2{

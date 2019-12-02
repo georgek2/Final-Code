@@ -203,6 +203,19 @@ footer .container{
 }
 
 @media (max-width: 300px){
+    .connect{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 60vh;
+    }
+    .connect .social{
+        
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 60vh;
+    }
 
     .footer-nav{
         margin: 20px;

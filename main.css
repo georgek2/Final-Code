@@ -7,6 +7,7 @@
 
 body{
     overflow-x: hidden;
+    height: 100%;
 }
 
 body h1, h2, h3, h4, h5{
@@ -42,7 +43,7 @@ nav{
 .brand{
     transform: translateX(-100rem);
     color: white;
-    font-size: 16px;
+    font-size: 19px;
     animation: slideIn .5s forwards;
 }
 
@@ -54,6 +55,7 @@ nav ul{
     display: flex;
     background-color: green;
 }
+
 
 nav ul li{
     list-style: none;
@@ -73,7 +75,7 @@ nav ul li:nth-child(3){
 }
 
 nav ul li a{
-    font-size: 15px;
+    font-size: 16px;
     color: whitesmoke;
     margin: 0 2rem;
     padding: 2.5% 0%;
@@ -179,7 +181,7 @@ footer .container{
 
 @media(max-width: 478px){
     .brand{
-        font-size: 13px;
+        font-size: 16px;
     }
     .footer-nav {
         margin: 40px;

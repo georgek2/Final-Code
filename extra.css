@@ -1,8 +1,42 @@
 
 section{
+    display: flex;
     margin-top: 2%;
     margin-left: 4%;
     padding-left: 2%;
+}
+
+aside{
+    height: 40vh;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    border: #ddd;
+    border-style: solid;
+    position: relative, fixed;
+    background: rgb(241, 240, 240);
+}
+
+aside h3{
+    line-height: 40px;
+    text-align: center;    
+    background: #ddd;
+}
+
+aside ul{
+    list-style: none;
+    font-size: 90%;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+aside ul p{    
+    color: black;
+}
+
+aside ul p:hover{
+    color: orange;
 }
 
 .page-wrapper a{
@@ -22,7 +56,7 @@ section{
 }
 
 .title {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .text{

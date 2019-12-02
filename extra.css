@@ -12,8 +12,7 @@ aside{
     margin-left: 2%;
     margin-right: 2%;
     width: 100%;
-    border: #ddd;
-    border-style: solid;
+    border: 1px solid rgb(7, 148, 7);
     position: relative, fixed;
     background: rgb(241, 240, 240);
 }
@@ -21,7 +20,8 @@ aside{
 aside h3{
     line-height: 40px;
     text-align: center;    
-    background: #ddd;
+    background: rgb(7, 148, 7);
+    color: white;
 }
 
 aside ul{

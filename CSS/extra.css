@@ -8,13 +8,13 @@ section{
 
 aside{
     height: 40vh;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-left: 2%;
     margin-right: 2%;
     width: 100%;
     border: 1px solid rgb(7, 148, 7);
     position: relative, fixed;
-    background: rgb(241, 240, 240);
+    background: rgb(250, 249, 249);
 }
 
 aside h3{
@@ -39,6 +39,21 @@ aside ul p:hover{
     color: orange;
 }
 
+.frames{
+    margin-top: 20px;
+    margin-right: 2%;
+    padding: 5%;
+    text-align: center;
+}
+
+.frames iframe{
+    margin-top: 100%;
+}
+
+main{
+    display: flex;
+}
+
 .page-wrapper a{
     color: orange;
 }
@@ -60,17 +75,17 @@ aside ul p:hover{
 }
 
 .text{
-    width: 60%;
+    width: 80%;
     padding: 3% 1%;
 }
 
 .after{
-    width: 60%;
+    width: 80%;
     padding-left: 1%;
 }
 
 img{
-    max-width: 50%;
+    max-width: 65%;
     position: relative;
     padding-left: 2%;
 }
@@ -80,7 +95,7 @@ p{
 }
 
 .eighty {
-    width: 80%;
+    width: 90%;
 }
 .about{
     width: 60%;

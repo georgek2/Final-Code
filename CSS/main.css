@@ -121,12 +121,82 @@ nav ul li a:hover::after{
     display: none;
 }
 
+.add{
+    display: none;
+}
+
+.add{
+    padding-left: 3%;
+}
+
 .landing{
     width: 70%;
     padding-top: 10%;
     padding-left: 20%;
     color: white;
 }
+
+.contact{
+    background: #ddd;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+.contact-title{
+    margin-top: 90px;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.contact-title h3{
+    font-size: 15px;
+    font-weight: 10px;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(7, 148, 7);
+    margin-bottom: 10px;
+}
+
+input{
+    height: 18px;
+}
+
+form .message{
+    height: 18vh;
+}
+
+form .submit{
+    background: orange;
+    border-color: transparent;
+    color: white;
+    height: 38px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
 
 footer .container{
     display: flex;
@@ -202,15 +272,16 @@ footer .container{
     .landing{
         padding-top: 20%;
     }
+
+    .frames{
+        display: none;
+    }
+    .add{
+        display: block;
+    }
 }
 
 @media (max-width: 300px){
-    .connect{
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
-        height: 60vh;
-    }
     .connect .social{
         
         margin: 0%;

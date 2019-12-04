@@ -6,7 +6,7 @@ section{
     padding-left: 2%;
 }
 
-aside{
+.aside{
     height: 40vh;
     margin-top: 1%;
     margin-left: 2%;
@@ -17,26 +17,32 @@ aside{
     background: rgb(250, 249, 249);
 }
 
-aside h3{
+.aside h3{
     line-height: 40px;
     text-align: center;    
     background: rgb(7, 148, 7);
     color: white;
 }
 
-aside ul{
+.aside ul{
     list-style: none;
     font-size: 90%;
     padding-top: 5px;
     padding-left: 10px;
 }
 
-aside ul p{    
+.aside ul p{    
     color: black;
 }
 
-aside ul p:hover{
+.aside ul p:hover{
     color: orange;
+}
+
+.more{
+    display: none;
+    width: 50%;
+    margin: 8%;
 }
 
 .frames{
@@ -67,7 +73,7 @@ main{
 }
 
 .intro{
-    max-width: 65%;
+    max-width: 60%;
 }
 
 .title {
@@ -108,7 +114,7 @@ p{
 }
 
 .under{
-    background:linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.1)), url(Pics/fruits4.jpg) no-repeat center center fixed;
+    background:linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.1)), url(../Pics/fruits4.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 80vh;
     color: whitesmoke;
@@ -209,16 +215,35 @@ footer span{
 
 
 @media (max-width: 550px){
+    .intro h2{
+        font-size: 30px;
+    }
+    .aside{
+        display: none;
+    }
+    #sticky-social {
+        display: none;
+    }
+
     .under{
         height: 100%;
+    }
+
+    .more{
+        display: block;
+        width: 80%;
     }
 }
 
 @media (max-width: 360px){
-
+    .intro h2{
+        font-size: 25px;
+    }
+    .eighty h2{
+        font-size: 20px;
+    }
     .footer-nav{
         font-size: 95%;
-        margin: 40% 5%;
     }
 
     .connect h2{

@@ -17,6 +17,14 @@ section{
     background: rgb(250, 249, 249);
 }
 
+.asdp{
+    display: flex;
+}
+
+.asdp img{
+    max-width: 40%;
+}
+
 .aside h3{
     line-height: 40px;
     text-align: center;    
@@ -69,9 +77,28 @@ main{
 }
 
 .landing{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.1)), url(../Pics/pome.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.landing{
     font-size: 40px;
 }
 
+#post{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.1)), url(../Pics/fruits1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+#post{
+    padding-top: 10%;
+    padding-left: 20%;
+    color: white;    
+    font-size: 40px;
+}
 .intro{
     max-width: 60%;
 }
@@ -85,6 +112,10 @@ main{
     padding: 3% 1%;
 }
 
+.post2{
+    width: 60%;
+}
+
 .after{
     width: 80%;
     padding-left: 1%;
@@ -94,6 +125,10 @@ img{
     max-width: 65%;
     position: relative;
     padding-left: 2%;
+}
+
+.pic{
+    max-width: 80%;
 }
 
 p{
@@ -114,6 +149,13 @@ p{
 }
 
 .under{
+    background:linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.1)), url(../Pics/fruits4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 80vh;
+    color: whitesmoke;
+}
+
+.bottom{
     background:linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.1)), url(../Pics/fruits4.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 80vh;

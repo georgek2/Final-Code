@@ -49,7 +49,7 @@ section{
 
 .more{
     display: none;
-    width: 50%;
+    width: 100%;
     margin: 8%;
 }
 
@@ -76,7 +76,7 @@ main{
     padding-left: 8%;
 }
 
-.landing{
+#Home{
     width: 100%;
     height: 80vh;
     background: linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.1)), url(../Pics/pome.jpg) no-repeat center center fixed;
@@ -87,18 +87,6 @@ main{
     font-size: 40px;
 }
 
-#post{
-    width: 100%;
-    height: 80vh;
-    background: linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.1)), url(../Pics/fruits1.jpg) no-repeat center center fixed;
-    background-size: cover;
-}
-#post{
-    padding-top: 10%;
-    padding-left: 20%;
-    color: white;    
-    font-size: 40px;
-}
 .intro{
     max-width: 60%;
 }

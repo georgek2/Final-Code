@@ -1,0 +1,15 @@
+.left-sider{
+  position: fixed;
+  top: 30%;
+  z-index: 999;
+}
+
+.left-sider ul{
+  border: none;
+}
+
+.left-sider i.fa{
+  padding: 8px;
+  font-size: 25px;
+  color: aqua;
+}

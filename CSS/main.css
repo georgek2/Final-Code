@@ -23,7 +23,7 @@ a{
     text-decoration: none;
 }
 
-#Home{
+#page{
     width: 100%;
     height: 80vh;
     background: linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.1)), url(../Pics/fruits1.jpg) no-repeat center center fixed;
@@ -45,6 +45,10 @@ nav{
     font-family: Libre Baskerville;
     background-color: green;
     width: 100%;
+}
+.landing{
+    font-size: 30px;
+    margin-right: 5%;
 }
 
 .brand{
@@ -136,7 +140,7 @@ nav ul li a:hover::after{
     padding-left: 3%;
 }
 
-#Home{
+#page{
     display: flex;
     flex-direction: column;
     text-align: center;

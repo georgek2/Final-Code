@@ -11,12 +11,16 @@ section{
     margin-top: 1%;
     margin-left: 2%;
     margin-right: 2%;
-    width: 100%;
+    width: 100%; 
     border: 1px solid rgb(7, 148, 7);
     position: relative, fixed;
     background: rgb(250, 249, 249);
 }
 
+.aside{
+    display: flex;
+    flex-direction: column;
+}
 .asdp{
     display: flex;
 }
@@ -49,7 +53,7 @@ section{
 
 .more{
     display: none;
-    width: 100%;
+    min-width: 150%;
     margin: 8%;
 }
 
